@@ -1,0 +1,19 @@
+[project]
+name = "pamc"
+version = "0.1.0"
+description = "PAMC experimental code for personalized decentralized federated learning."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "numpy",
+  "scikit-learn",
+  "torch",
+  "torchvision",
+  "tqdm",
+  "matplotlib",
+  "Pillow",
+]
+
+[tool.setuptools.packages.find]
+include = ["pamc*"]
+
